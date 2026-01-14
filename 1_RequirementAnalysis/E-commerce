@@ -1,1 +1,45 @@
+Functional Requirements for E-Commerce Application
+
+1. User Registration & Login
+•	Customers should be able to register, log in, and log out using email/phone, social login (Google, Facebook, Microsoft) and password
+•	The system should support password reset and basic profile management.
+
+2. Product Catalog Management and Detail Pages
+•	Customers should be able to view detailed product information, including images, specifications, price, stock status, and customer reviews.
+•	The system should display high-resolution images for every product.
+•	Products should be organized into categories.
+
+3. Advanced Product Search & Filtering
+•	The System should allow users to filter results by category, price range, brand, rating, and availability.
+
+4. Shopping Cart & Wishlist
+•	Customers should be able to add products to the cart, update quantities or remove items.
+•	The system should allow users to save items for later (Wishlist) without leaving the current page.
+
+5. Secure Checkout Process
+•	Customers should be able to check out by providing shipping address, selecting delivery options, and reviewing the order summary and should allow guest checkout options for faster purchases.
+
+6. Payment Processing
+•	The system should support multiple payment methods (credit/debit cards, wallets, UPI, etc.).
+•	Order summary and confirmation before payment should be supported
+
+7. Tracking Order & Notifications
+•	The system should send notifications (email/SMS/in-app) for order confirmation, payment status, and delivery updates.
+•	Customers can view order history and shipping updates with tracking links 
+
+8. Customer Reviews & Ratings
+•	The system shall allow customers to leave star ratings, write reviews, and upload photos of the products they received
+•	Customer Ratings should be displayed to help other buyers to make decisions.
+
+9. Stock Management
+•	The system should automatically decrease stock levels upon a successful order and notify Administrator to add, update, or remove products.
+•	The system should be able to manage orders, update order status, and track sales
+
+10. Responsive Design 
+•	The system shall provide a seamless, fully functional experience across desktop, tablet, and mobile browsers.
+
+11. Security management
+•	The system should keep customer information safe and protected.
+•	All payments and data transfers should be secured, so information cannot be read by others
+•	The system should detect suspicious activities and use secure payment systems to prevent fraud
 
