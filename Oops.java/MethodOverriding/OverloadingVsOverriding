@@ -1,1 +1,38 @@
+package methodOverriding;
 
+class ABC
+{
+	void m1(int a)
+	{
+		System.out.println(a);
+	}
+	
+	void m2(int b)
+	{
+		System.out.println(b);
+	}
+	
+}
+
+class XYZ extends ABC
+{
+	void m1(int a)      //overriding --same signature with different implementation
+	{
+		System.out.println(a+a);
+	}
+	
+	void m2(int a , int b)      //overloading--different signature
+	{
+		System.out.println(a+b);
+	}
+	
+}
+
+public class OverloadingVsOverring {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
