@@ -1,3 +1,6 @@
+/*Assignment 4: Exception in Method Call
+Write a method that throws an exception and handle it in main().*/
+
 package exceptionHandling;
 
 public class MethodCall {
@@ -21,5 +24,5 @@ public class MethodCall {
         System.out.println((num / divisor));
 
 	}
-
+          //Output: Error handled in main: You cannot divide by zero!
 }
