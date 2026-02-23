@@ -1,3 +1,6 @@
+/*Assignment 5: Rethrowing Exceptions
+Catch an exception and rethrow it.*/
+
 package exceptionHandling;
 
 public class RethrowExample {
@@ -27,5 +30,7 @@ public class RethrowExample {
             System.err.println("Main System Alert: " + e.getMessage());
         }
     }
+    
+   /*Output: Local Log: A withdrawal error occurred.
+    Main System Alert: Insufficient funds for large withdrawal.*/
 }
-
