@@ -1,3 +1,8 @@
+/*Assignment 1: Sum of Natural Numbers using for Loop
+Write a program that:
+Takes an integer N as input.
+Uses a for loop to find the sum of first N natural numbers.*/
+
 package internshipAssignments_1;
 
 public class SumOfNaturalNumbers {
@@ -26,7 +31,8 @@ public class SumOfNaturalNumbers {
 	
     
     
-    
+   // Output: sum of natural numbers is:55
+
     
     
     
@@ -37,4 +43,3 @@ public class SumOfNaturalNumbers {
 	}
 
 }
-
