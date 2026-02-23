@@ -1,3 +1,4 @@
+//8)Print the Fibonacci series using for loop.
 package internshipAssignments_1;
 
 import java.util.Scanner;
@@ -13,7 +14,7 @@ public class Fibonacciseries {
 
         System.out.print("Fibonacci Series: ");
 
-        for (int i = 4; i <= n; i++) {  
+        for (int i = 1; i <= n; i++) {  
             System.out.print(a + " ");  //a=0,1,1,2
 
             int next = a + b; //1,2,3,5
@@ -21,7 +22,10 @@ public class Fibonacciseries {
             b = next;//b=1,2,3,5
         }
 
-        sc.close();   
+        sc.close();  
+        
+        //output: Enter number of terms: 3
+        //Fibonacci Series: 0 1 1 
 			  
 		   }
 	}
