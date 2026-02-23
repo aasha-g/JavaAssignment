@@ -1,3 +1,6 @@
+/*Assignment : Using getMessage() and printStackTrace()
+Print detailed exception messages.*/
+
 package exceptionHandling;
 
 public class PrintStack {
@@ -19,6 +22,13 @@ public class PrintStack {
             e.printStackTrace();
         }
     }
+            /*Output:Simple Message: / by zero
+	-----------------------------------
+	Full Trace:
+	java.lang.ArithmeticException: / by zero
+		at exceptionHandling.PrintStack.main(PrintStack.java:11)*/
 
 
 	}
+
+
