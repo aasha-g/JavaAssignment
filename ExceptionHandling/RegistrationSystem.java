@@ -1,3 +1,7 @@
+/*Assignment 3: Handling Multiple Custom Exceptions
+Create different exceptions for various invalid inputs.*/
+
+
 package exceptionHandling;
 
 //  Exception for Age issues
@@ -50,5 +54,7 @@ public class RegistrationSystem {
         {
             System.out.println("Registration attempt finished.");
         }
+          //Output: Caught Name Exception: Name cannot be empty!
+                 // Registration attempt finished.
     }
 }
