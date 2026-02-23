@@ -1,13 +1,17 @@
+/*
+Assignment 1: Creating a Custom Exception
+Create a LowBalanceException for bank transactions.*/
+
+
 package exceptionHandling;
 
-//1. The Custom Exception (Not public)
+//1. The Custom Exception 
 class LowBalanceException extends Exception {
  public LowBalanceException(String message) {
      super(message);
  }
 }
 
-//2. The Main Class (Matches the filename)
 public class BankSystem {
  
  public static void withdraw(int balance, int amount) throws LowBalanceException {
@@ -31,5 +35,10 @@ public class BankSystem {
          // Catching our specific custom error
          System.err.println("Error: " + e.getMessage());
      }
+     
+    // Output: Current Balance: $500
+     //Trying to withdraw: $1000
+     //Error: Transaction Denied: Insufficient Funds!
+
  }
 }
