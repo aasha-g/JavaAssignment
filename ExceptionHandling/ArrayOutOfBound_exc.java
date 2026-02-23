@@ -1,3 +1,6 @@
+/*Assignment 2: Handle ArrayIndexOutOfBoundsException
+Create an array and intentionally access an out-of-bounds index.*/
+
 package exceptionHandling;
 
 public class ArrayOutOfBound_exc {
@@ -10,7 +13,7 @@ public class ArrayOutOfBound_exc {
         
         try {
             // Trying to access index 5, which does not exist
-            System.out.println("Value at index 5: " + numbers[1]/1);
+            System.out.println("Value at index 5: " + numbers[3]);
             String s=null;
             System.out.println(s.length());
         } 
@@ -29,7 +32,12 @@ public class ArrayOutOfBound_exc {
         	
         
         System.out.println("Program is completed.....");
+        
+        //Output:Program is started.....
+        //index that is out of range
+        //Program is completed.....
     }
 
 	}
+
 
