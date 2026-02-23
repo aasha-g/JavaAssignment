@@ -1,3 +1,6 @@
+/*Assignment 4: Nested Try-Catch
+Implement nested try-catch to handle exceptions at multiple levels.*/
+
 package exceptionHandling;
 
 public class NestedTry {
@@ -28,6 +31,12 @@ public class NestedTry {
         }
 
         System.out.println("Program finished safely.");
+        
+        /*Output:Accessing array...
+                 Performing division...
+                 Inner Catch: Cannot divide by zero!
+                 Outer Catch: You tried to access an index that doesn't exist.
+                 Program finished safely.*/
+
     }
 }
-
