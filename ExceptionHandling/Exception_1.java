@@ -3,7 +3,7 @@ package exceptionHandling;
 
 import java.util.Scanner;
 
-public class UnknowException {
+public class Exception_1 {
 
 	public static void main(String[] args) {
 		System.out.println("Program is started.....");
