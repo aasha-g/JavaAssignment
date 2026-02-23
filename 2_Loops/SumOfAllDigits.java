@@ -1,3 +1,8 @@
+/*4) Given
+int a = 641538927;
+get the sum of all the digits of the number.*/
+
+
 package internshipAssignments_1;
 
 public class SumOfAllDigits {
@@ -14,7 +19,8 @@ public class SumOfAllDigits {
 		}
 		
 		System.out.println("sum of all numbers is " +sum);
+		
+		//Output:sum of all numbers is 45
 	}
 
 }
-
