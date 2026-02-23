@@ -1,3 +1,6 @@
+/*6)Count Vowels and Consonants
+Count and display the number of vowels and consonants in a string.*/
+
 package internshipAssignments_1;
 
 import java.util.Scanner;
@@ -32,7 +35,9 @@ public class VowelsAndConsonants {
             
             sc.close();
         
-	
+	/*Output:Enter a string: google
+            Vowels: 3
+            Consonants: 3*/
 
 }
 }
