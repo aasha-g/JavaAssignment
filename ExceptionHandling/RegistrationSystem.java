@@ -5,9 +5,9 @@ Create different exceptions for various invalid inputs.*/
 package exceptionHandling;
 
 //  Exception for Age issues
-class InvalidAgeEx extends Exception {
+class InvalidAgeException extends Exception {
    
-    public InvalidAgeEx(String message) {
+    public InvalidAgeException(String message) {
         super(message);
     }
 }
