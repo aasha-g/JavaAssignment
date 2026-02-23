@@ -1,3 +1,6 @@
+/*Assignment 3: Input Validation
+Use throw to reject invalid user input (e.g., entering negative numbers).*/
+
 package exceptionHandling;
 
 public class ThrowStatement {
@@ -18,7 +21,9 @@ public class ThrowStatement {
 		     {
 	            System.out.println("Exception caught: " + e.getMessage());
 	         }
+		 
+		 //Output:Exception caught: Negative number not allowed
+
 	}
 
 }
-
