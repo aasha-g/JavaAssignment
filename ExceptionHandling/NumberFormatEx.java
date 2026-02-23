@@ -1,3 +1,6 @@
+//Assignment 3: Handle NumberFormatException
+//Convert a string to integer and handle incorrect inputs.
+
 package exceptionHandling;
 
 public class NumberFormatEx {
@@ -13,6 +16,9 @@ public class NumberFormatEx {
             {
             System.out.println("Invalid input: Not a number.");
             }
- }
+        
+ }         //Output:Invalid input: Not a number.
+
 }
+
 
