@@ -1,3 +1,8 @@
+
+/* Try and Throw Statements
+Assignment 1: Using throw to Raise an Exception
+Write a method that throws an exception when the input is negative.*/
+
 package exceptionHandling;
 
 public class NegativeCheck {
@@ -22,8 +27,8 @@ public class NegativeCheck {
 	         System.out.println("Exception caught: " + e.getMessage());
 	     }
 		
-		
+		//Output: Exception caught: Number cannot be negative
+
 	}
 
 }
-
