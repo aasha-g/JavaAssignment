@@ -1,3 +1,7 @@
+/*Assignment 2: Custom Exception Using throw
+Create and throw a custom exception if age is below 18 for voting.*/
+
+
 package exceptionHandling;
 
 class AgeException extends Exception {//user defined exception
@@ -25,9 +29,10 @@ public class VotingCheck {
      try {
 		checkAge(20);
 	} catch (AgeException e) {
-		// TODO Auto-generated catch block
+		
 		e.printStackTrace();
 	}
- }
+ }       //Output:Exception caught: You are not eligible to vote.
+                //You are eligible to vote.
 }
 
