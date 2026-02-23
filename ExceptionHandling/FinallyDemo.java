@@ -1,3 +1,6 @@
+/*Assignment 3: Using finally
+Write a program to close a file in the finally block.*/
+
 package exceptionHandling;
 
 import java.util.Scanner;
@@ -30,6 +33,9 @@ public class FinallyDemo {
 
 
 	}
-
+        //Output: Enter a number: 0
+        //Something went wrong!
+        //Closing the scanner...
+        //Program is completed.....
 
 
