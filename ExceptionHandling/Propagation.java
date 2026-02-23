@@ -1,3 +1,6 @@
+/*Assignment 5: Exception Propagation
+Demonstrate exception propagation in a method call stack.*/
+
 package exceptionHandling;
 
 public class Propagation {
@@ -21,7 +24,8 @@ public class Propagation {
         String text = null;
         System.out.println(text.length()); // This triggers the error
 
+        
+        //Output:Manager: I'll handle this error!
 	}
 
 }
-
