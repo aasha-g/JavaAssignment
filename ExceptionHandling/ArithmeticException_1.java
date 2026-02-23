@@ -1,3 +1,7 @@
+/*Assignment 1: Handle ArithmeticException
+Write a program to catch division by zero exception.*/
+
+
 package exceptionHandling;
 
 import java.util.Scanner;
@@ -29,7 +33,11 @@ public class ArithmeticException_1 {
         
         
         sc.close();
+        
+      /*Output:  Program is started.....
+        Enter a number: 0
+        Invalid data
+        Program is completed.....*/
 	}
 
 }
-
