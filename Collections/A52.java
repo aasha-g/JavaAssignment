@@ -1,8 +1,10 @@
+/*
+ * Create a arraylist to store the details of 5 students(student name & student id).
+ */
 package collectionFramework;
-
 import java.util.ArrayList;
 
-public class Assignment1 {
+public class A52 {
 	
 	static class Student {
         String name;
@@ -29,6 +31,12 @@ public class Assignment1 {
             System.out.println("Student Name: " + s.name + "   Student ID: " + s.id);
         }
 	}
+              /*Output:
+               * Student Name: A   Student ID: 101
+                 Student Name: B   Student ID: 102
+                 Student Name: C   Student ID: 103
+                 Student Name: D   Student ID: 104
+                 Student Name: E   Student ID: 105
 
+               */
 }
-
