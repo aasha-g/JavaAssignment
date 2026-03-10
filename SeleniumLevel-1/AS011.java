@@ -42,7 +42,7 @@ public class AS011 {
 		}
 		*/
 		
-		
+		driver.close();
 		
 		
 	}
