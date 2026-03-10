@@ -56,7 +56,7 @@ public class AS001 {
 		driver.get("https://petstore.octoperf.com/");
 		driver.get("https://www.letskodeit.com/practice");
 		driver.get("https://www.saucedemo.com");
-		
+		driver.close();
 		
 		//Output:chrome browser is launched
 		
